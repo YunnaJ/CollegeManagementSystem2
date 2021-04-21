@@ -98,5 +98,12 @@ namespace CollegeManagementSystem
                 feesTextBox.Text = "";
             }
         }
+
+        private void button2mainform_Click(object sender, EventArgs e)
+        {
+            MainForm main = new MainForm();
+            main.Show();
+            this.Hide();
+        }
     }
 }
