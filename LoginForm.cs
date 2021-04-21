@@ -31,7 +31,7 @@ namespace CollegeManagementSystem
             {
                 MessageBox.Show("Enter Name and Password");
             }
-            // If the user input the correct name and password, login the user
+            // If the user input the correct name and password (Name: Manager, Password: 1234), login the user
             else if (nameTextBox.Text == "Manager" && Int32.Parse(passwordTextBox.Text) == 1234)
             {
                 MessageBox.Show("Successfully Logged In");
